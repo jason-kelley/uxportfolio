@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html" ; charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+
+  <title>Jason Kelley UX Designer</title>
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <!-- custom css -->
+  <link rel="stylesheet" href="style/style.css">
+  <!-- fullPage.js -->
+  <link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/jquery.fullpage.min.css" />
+  <!-- for animate.css || wow.js -->
+  <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+  <!-- fontawesome -->
+  <!-- <script defer src="scripts/fontawesome-all.js"></script> -->
+  <!-- fontawesome CDN -->
+  <script defer src="https://pro.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-Ht3fAeBiX/rVmKVyMwONAIIt0aRoPzZgq1FzdRgR9zFo+Kcd8YDwUbFlTItfaYW4" crossorigin="anonymous"></script>
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|Playfair+Display:700" rel="stylesheet">
+  <!-- clear sans font -->
+  <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.rawgit.com/resir014/Clear-Sans-Webfont/v1.1.1/css/clear-sans.css">
+
+
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <!-- <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script> -->
+
+  <script type="text/javascript" src="node_modules/fullpage.js/dist/jquery.fullpage.js">
+  </script>
+  <script type="text/javascript" src="examples.js">
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+        scrollingSpeed: 800,
+        scrollBar: true,
+        navigation:true,
+        afterRender: function(){
+              new WOW().init();
+            }
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+  <nav class="navbar bg-faded fixed-top">
+    <div class="nav-container">
+      <ul class="nav navbar-nav navbar-logo d-flex justify-content-start">
+        <li class="d-flex my-auto">
+          <a class="nav-link" href="index.html"><img class ="logo" src="./assets/logo.svg" height="65" width="65"></a>
+        </li>
+      </ul>
+    </div>
+
+      <div class="nav-container-links">
+        <div class="nav-row  d-flex justify-between">
+
+        <div class="nav navbar-nav-mobile">
+          <li class="nav-item-menu">
+            <a class="nav-link-menu" href="#">Menu</a>
+          </li>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="nav-container-links-mobile">
+      <div class="nav-row">
+      <div class="nav navbar-nav-mobile">
+        <li class="nav-item-menu">
+          <a class="nav-link-menu" href="#">Menu</a>
+        </li>
+      </div>
+    </div>
+  </div>
+
+  </nav>
+
+
+
+  <div id="fullpage">
+
+    <!--title page-->
+    <div class="container-fluid section story-bg">
+
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover my-auto">
+
+          <h1 class="cover-heading">Heartfull</h1>
+          <p class="lead">Connecting local restaurants to charity organizations in an attempt to eliminate food waste.</p>
+          <em>Duration: 2 weeks<br>
+          Team: Qian Li (visual), Chintan Gohel and Amanda Dietzel (research)<br>
+          Tools used: Sketch, Invision, HTML/CSS/Javascript</em>
+          <div class="article-space-20"></div>
+            <div>
+            <li class="story-mode-button">
+              <a class="story-mode-text" href="project1.html">View in article mode</a>
+            </li>
+          </div>
+        </main>
+      </div>
+
+    </div>
+
+
+    <!-- overview -->
+    <div class="container-fluid d-flex section story-bg">
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover my-auto">
+          <div class="wow fadeIn">
+
+            <h1>Overview</h1>
+            <p class="lead">
+              <mark>The Problem:</mark> Austinites want to give and charities want to receive (so they can give again!) There are barriers that prevent these two parties from connecting.
+            </p>
+
+            <ol>
+              <li>Fear connected to liability when donating food</li>
+              <li>Charities typically have hours of operation that don't always align with the restaurant hours</li>
+              <li>From the donor's perspective, initiating contact with a charity is viewed as time-consuming</li>
+              <li>Charities lack donations of quality and relevance</li>
+            </ol>
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- goal -->
+    <div class="container-fluid d-flex section story-bg">
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover my-auto">
+          <div class="wow fadeIn">
+
+            <p class="lead"><mark>Our Goal:</mark> Minimize food waste and pair donors to charities based on their individual needs.
+            </p>
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- what did I bring to the table -->
+    <div class="container-fluid d-flex section story-bg">
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover my-auto">
+          <div class="wow fadeIn">
+
+            <h1>What Did I Bring to the Table?</h1>
+            <div class="article-space-10"></div>
+            <p class="lead ">In the first half of our sprint, I collaborated with the team on ideation and designed a section of our wireframes in Sketch and Invision. During our last week, I focused primarily on our design deliverables including our logo and high-fidelity mockup using basic HTML/CSS.
+            </p>
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- research on current solution -->
+    <div class="container-fluid d-flex section story-bg">
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover my-auto">
+          <div class="wow fadeIn">
+
+            <h1>Research on Current Solution</h1>
+            <p> Keep Austin Fed is a local non-profit that utilizes volunteer delivery drivers to connect surplus food to charities. Although they are doing an exceptional job, their founder highlights their biggest hurdle as being a shortage of volunteers.
+            </p>
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- blockquote -->
+    <div class="container-fluid d-flex section story-bg">
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover my-auto">
+          <div class="wow fadeIn">
+
+            <blockquote class="blockquote">
+              <p class="mb-0 ">"The biggest issue we face is honestly finding enough volunteers to cover all of the runs that we have. Its very up and down as far as our active volunteers and their time as life can sometimes get in the way."</p>
+              <footer class="blockquote-footer ">Russel Cavin, owner Keep Austin Fed <cite title="Source Title"> </cite></footer>
+            </blockquote>
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- mealconnect -->
+    <div class="container-fluid d-flex section story-bg">
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover my-auto">
+          <div class="wow fadeIn">
+
+              <p class="mb-0 ">MealConnect gives donors a convenient, free and safe way to reduce waste and connect surplus meals with neighborhood organizations. I did a competitive analysis to figure out it's weaknesses and found that creating a site-map was the best way to understand how much of a time-commitment the process of donating food through the site was. This was a key discovery that we attempted to address in our ideation.</p>
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- understanding our users -->
+    <div class="container-fluid d-flex section story-bg">
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover my-auto">
+          <div class="wow fadeIn">
+
+            <h1> Understanding Our Users</h1>
+            <p> We took to the streets of downtown Austin and talked to restaurant owners and homeless shelters to gain immediate insight about our user. </p>
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- understanding our users 2 -->
+    <div class="container-fluid d-flex section story-bg">
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover my-auto">
+          <div class="wow fadeIn">
+
+            <p class="lead ">We learned that restaurants typically throw away their surplus food for fear of liability issues. Charities receive most of their food donations from food banks, and a small percentage from the community. The only solution that would work is one that is convenient for both users.</p>
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+
+    <!-- persona 1 -->
+    <div class="container-fluid d-flex section story-bg">
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover my-auto">
+          <div class="wow fadeIn">
+
+            <h1>Personas</h1>
+            <p>After learning from 4 users what their frustrations were, we had enough information to create personas that could inform our decisions.</p>
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- persona 2 -->
+    <div class="container-fluid d-flex section story-bg">
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover my-auto">
+          <div class="wow fadeIn">
+
+            <blockquote class="blockquote">
+              <p class="mb-0">"As a restaurant owner I want a safe and easy way to connect with a local charity that will take my surplus food so it doesn't go to waste."</p>
+              <footer class="blockquote-footer">Restaurant Owner<cite title="Source Title"></cite></footer>
+            </blockquote>
+            <blockquote class="blockquote">
+              <p class="mb-0">"As a local charity I want a solution to receiving food donations that align with our mission, availability and needs so that we can effectively help people in our community."</p>
+              <footer class="blockquote-footer">Charity Organizer<cite title="Source Title"></cite></footer>
+            </blockquote>
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- Defining our sprints -->
+    <div class="container-fluid d-flex section story-bg">
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover my-auto">
+          <div class="wow fadeIn">
+
+            <h1>Defining our sprint</h1>
+            <p>Using the project goal as our lead, we brainstormed many big ideas for possible directions we could take. One example was an app that pairs local farms with restaurants needing a way to offload their compost ( a recent law passed in Austin
+              made this a requirement for restaurants). Although focused on one of our users, it ignored the other and didn't meet our project requirements.
+            </p>
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- defining sprint 2 -->
+    <div class="container-fluid d-flex section story-bg">
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover my-auto">
+          <div class="wow fadeIn">
+
+            <p>We also conceptualized a feature that took a volunteer approach into consideration which was inspired by my conversation with Russell from Keep Austin Fed. The idea was to be the Uber of volunteer services by connecting Good Samaritans to donors who are unable to deliver food to a charity. Although the team was driven with this direction, ultimately we had to abandon it and focus on our most important features. This was an important teachable moment for our team.</p>
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- deciding whats important -->
+    <div class="container-fluid d-flex section story-bg">
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover my-auto">
+          <div class="wow fadeIn">
+
+            <p class="lead">Because we were utilizing the scrum method, and had two weeks to produce a minimum viable product (MVP), we re-centered our attention on what exactly we were trying to deliver and for whom.
+            </p>
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- taking what we learned... -->
+    <div class="container-fluid d-flex section story-bg">
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover my-auto">
+          <div class="wow fadeIn">
+
+            <p>Taking what we learned from our interviews, we wrote user stories that reflected the needs of both donors and charity organizations. We pared these down to three essential features.</p>
+
+            <ol>
+              <li>Ability to schedule a pick-up or delivery</li>
+              <li>Option to filter results</li>
+              <li>Receive communication notifications</li>
+            </ol>
+
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- taking what we learned... -->
+    <div class="container-fluid d-flex section story-bg">
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover my-auto">
+          <div class="wow fadeIn">
+
+            <p>As we bagan to understand more about the circumstances under which the user will be using the app, we imagined how we could help them be as efficient as possible in performing their tasks.</p>
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- By creating a mobile app.. -->
+    <div class="container-fluid d-flex section story-bg">
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover my-auto">
+          <div class="wow fadeIn">
+
+            <p class="lead">By creating a mobile app that connects donors of surplus food to charity organizations, users will have access to a donation marketplace that allows them to filter results based on their needs.</p>
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- Design process -->
+    <div class="container-fluid d-flex section story-bg">
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover mx-auto my-auto">
+          <div class="wow fadeIn">
+
+            <h1>Design Process</h1>
+            <p>We set clear goals for the design of Heartfull</p>
+            <ol>
+              <li>Clean responsive design</li>
+              <li>Friendly color palette</li>
+              <li>Familiar design patterns</li>
+            </ol>
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+  <!-- Design process 2-->
+    <div class="container-fluid d-flex section story-bg">
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover my-auto">
+          <div class="wow fadeIn">
+
+            <p>Because we established the donor would snap a picture of her donation, we knew early on that we were designing for mobile. This provided parameters that eventually benefitted us: it forced us to minimize the clutter and highlight the information that is most useful.</p>
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- Design process 3-->
+      <div class="container-fluid d-flex section story-bg">
+        <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+          <main role="main" class="inner cover my-auto">
+            <div class="wow fadeIn">
+
+            <p>Between myself and Qian Li, our other visual designer, we created an initial round of wireframes that could be tested and iterated on.</p>
+
+            </div>
+          </main>
+        </div>
+      </div>
+
+    <!-- here is what we learned... -->
+    <div class="container-fluid d-flex section story-bg">
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover my-auto">
+          <div class="wow fadeIn">
+
+            <p>Here is what we learned from testing our prototype.</p>
+            <ol>
+              <li>User is expecting feedback when taking a picture, but is stuck when picture doesn't appear in next slide. Solution: add picture in new slide</li>
+              <li>After a donor matches to a charity, they are unsure about next steps. Solution: Add a modal that affirms the match and includes an option to undo match or cancel or continue</li>
+                <li>In the lo-fidelity prototype, users were unsure why the design was so simple.Solution: create a slightly higher fidelity mockup and explain the reason for it's appearance</li>
+            </ol>
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- here is what we learned... -->
+    <div class="container-fluid d-flex section story-bg">
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover my-auto">
+          <div class="wow fadeIn">
+
+            <p>We took into consideration the conditions under which users will be interacting with the site&#8212;mostly mobile and distracted or under time constraints. For this reason, in our mockup we demonstrated micro-interactions that provide feedback to informed the users of their actions.</p>
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- branding -->
+    <div class="container-fluid d-flex section story-bg">
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover my-auto">
+          <div class="wow fadeIn">
+
+            <h1>Branding</h1>
+            <p>We took care in defining a color palette that was universal and friendly. We took a different approach from competing sites which generally use earth tones.</p>
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- What I learned -->
+    <div class="container-fluid d-flex section story-bg">
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover my-auto">
+          <div class="wow fadeIn">
+
+            <h1>What I learned</h1>
+            <div class= "wow fadeIn">
+              <p>This project deepened my understanding of the scrum process. Although, it was new to our team in the beginning, we agreed that it streamlined our workflow by forcing us to prioritize the features we wanted to implement in our first sprint.</p>
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- What I would do better -->
+    <div class="container-fluid d-flex section story-bg">
+      <div class="cover-container-story d-flex h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover my-auto">
+          <div class="wow fadeIn">
+
+            <h1>What I would do better next time</h1>
+            <ol>
+              <li>Build faster, learn faster</li>
+              <li>Discover early-on the strengths of the team and use them more effectively</li>
+              <li>Define our user earlier on in the process and only design for them</li>
+            </ol>
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+  </div>
+  <!-- Footer -->
+  <Footer>
+    <div class="footer-wrapper d-flex justify-content-center fixed-bottom">
+      <div class="scroll-more-container row justify-content-center">
+        <h6 class="scroll-more d-flex justify-content-center align-items-end">scroll for more</h6>
+        <h6 class="scroll-more-mobile d-flex justify-content-center align-items-end"></h6>
+        <i class="down-arrow far fa-angle-down fa-5x"></i>
+      </div>
+    </div>
+  </Footer>
+
+  <!-- modal -->
+  <!-- <div>
+    </div> -->
+
+  <!-- Bootstrap core js -->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="style/main.js"></script>
+
+  <script type="text/javascript" src="//use.typekit.net/gla7wnd.js"></script>
+  <script type="text/javascript">
+    try {
+      Typekit.load();
+    } catch (e) {}
+  </script>
+
+
+  <!-- wow.js -->
+  <script src="node_modules/wowjs/dist/wow.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+
+  </div>
+</body>
+
+</html>
